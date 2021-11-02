@@ -1,0 +1,20 @@
+^C:\USERS\SID\DESKTOP\TBBLABELING\REPOSITORY\PP_2021_SPRING_INFORMATICS\BUILD\CMAKEFILES\30A376C4C2F1A62672CD43A27111B9DD\SHIROKOV_S_LABELING_SEQ_CHECK_COUNT_TESTS.RULE
+setlocal
+C:\Users\Sid\AppData\Local\Programs\Python\Python39\python.exe C:/Users/Sid/Desktop/tbblabeling/repository/pp_2021_spring_informatics/scripts/check_count_tests.py shirokov_s_labeling_seq " C:/Users/Sid/Desktop/tbblabeling/repository/pp_2021_spring_informatics/modules/task_1/shirokov_s_labeling/labeling.cpp C:/Users/Sid/Desktop/tbblabeling/repository/pp_2021_spring_informatics/modules/task_1/shirokov_s_labeling/labeling.h C:/Users/Sid/Desktop/tbblabeling/repository/pp_2021_spring_informatics/modules/task_1/shirokov_s_labeling/main.cpp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SID\DESKTOP\TBBLABELING\REPOSITORY\PP_2021_SPRING_INFORMATICS\MODULES\TASK_1\SHIROKOV_S_LABELING\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Sid/Desktop/tbblabeling/repository/pp_2021_spring_informatics -BC:/Users/Sid/Desktop/tbblabeling/repository/pp_2021_spring_informatics/build --check-stamp-file C:/Users/Sid/Desktop/tbblabeling/repository/pp_2021_spring_informatics/build/modules/task_1/shirokov_s_labeling/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

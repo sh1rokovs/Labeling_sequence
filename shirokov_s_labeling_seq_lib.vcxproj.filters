@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Sid\Desktop\tbblabeling\repository\pp_2021_spring_informatics\modules\task_1\shirokov_s_labeling\labeling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sid\Desktop\tbblabeling\repository\pp_2021_spring_informatics\modules\task_1\shirokov_s_labeling\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Sid\Desktop\tbblabeling\repository\pp_2021_spring_informatics\modules\task_1\shirokov_s_labeling\labeling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sid\Desktop\tbblabeling\repository\pp_2021_spring_informatics\modules\task_1\shirokov_s_labeling\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B9B9A26C-5D9F-30BF-89BF-EB6AEA145641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{08827EF1-D612-3B50-B519-755EACB4BC05}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

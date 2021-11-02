@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sid\Desktop\tbblabeling\repository\pp_2021_spring_informatics\build\CMakeFiles\30a376c4c2f1a62672cd43a27111b9dd\shirokov_s_labeling_seq_check_count_tests.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Sid\Desktop\tbblabeling\repository\pp_2021_spring_informatics\modules\task_1\shirokov_s_labeling\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Sid\Desktop\tbblabeling\repository\pp_2021_spring_informatics\build\modules\task_1\shirokov_s_labeling\CMakeFiles\shirokov_s_labeling_seq_check_count_tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D63F3D84-9923-32DA-9F8E-BEB41A4FC9EB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
